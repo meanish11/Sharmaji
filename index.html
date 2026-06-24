@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sharma Ji Thekua — Parampara Ka Swad, Ghar Jaisa Vishwas</title>
+  <meta name="description" content="Authentic homemade maida thekua, made with desi ghee. Naram, kurkura aur lajawaab swad — straight from Sharma Ji's kitchen." />
+  <meta name="author" content="Sharma Ji Thekua" />
+  <meta property="og:title" content="Sharma Ji Thekua — Parampara Ka Swad, Ghar Jaisa Vishwas" />
+  <meta property="og:description" content="Authentic homemade maida thekua, made with desi ghee. Naram, kurkura aur lajawaab swad — straight from Sharma Ji's kitchen." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://storage.googleapis.com/gpt-engineer-file-uploads/0hmom2iydFflMxidJrsUd99x1of1/social-images/social-1782270851886-59241.webp" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Sharma Ji Thekua — Parampara Ka Swad, Ghar Jaisa Vishwas" />
+  <meta name="twitter:description" content="Authentic homemade maida thekua, made with desi ghee. Naram, kurkura aur lajawaab swad — straight from Sharma Ji's kitchen." />
+  <meta name="twitter:image" content="https://storage.googleapis.com/gpt-engineer-file-uploads/0hmom2iydFflMxidJrsUd99x1of1/social-images/social-1782270851886-59241.webp" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&family=Great+Vibes&display=swap" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo" onclick="showHome()">
+        <div class="logo-icon">S</div>
+        <div class="logo-text">
+          <span class="logo-name">Sharma Ji</span>
+          <span class="logo-sub">Swadisht Thekua</span>
+        </div>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#story" onclick="showHome()">Our Story</a></li>
+        <li><a href="#products" onclick="showHome()">Products</a></li>
+        <li><a href="#craft" onclick="showHome()">The Craft</a></li>
+        <li><a href="#order" onclick="showHome()">Order</a></li>
+      </ul>
+      <a href="https://wa.me/918777790916?text=Namaste!%20I'd%20like%20to%20order%20Sharma%20Ji%20Thekua." target="_blank" class="nav-cta">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Order Now
+      </a>
+      <button class="hamburger" id="hamburger" onclick="toggleMobileMenu()">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===================== HOME PAGE ===================== -->
+  <div id="page-home">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <span class="hero-kicker">Est. Tradition</span>
+          <h1 class="hero-heading">
+            <em class="script">Parampara ka</em><br>
+            swad, ghar jaisa vishwas.
+          </h1>
+          <p class="hero-desc">
+            Sharma Ji's Swadisht Maida Thekua — slow-roasted in pure desi ghee, hand-pressed in heirloom moulds, and packed fresh from a Bihari kitchen to your doorstep.
+          </p>
+          <div class="hero-actions">
+            <a href="https://wa.me/918777790916?text=Namaste!%20I'd%20like%20to%20order%20Sharma%20Ji%20Thekua." target="_blank" class="btn-whatsapp">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Order on WhatsApp
+            </a>
+            <a href="#products" class="btn-link">View packs →</a>
+          </div>
+        </div>
+        <div class="hero-img-wrap">
+          <img
+            src="image/WhatsApp Image 2026-06-24 at 8.50.14 PM...jpeg"
+            alt="Sharma Ji Swadisht Maida Thekua — branded pack close-up"
+            class="hero-pack-img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- TICKER -->
+    <div class="ticker-wrap">
+      <div class="ticker-track">
+        <span>✦ Kurkura</span>
+        <span>✦ Lajawaab Swad</span>
+        <span>✦ Desi Ghee</span>
+        <span>✦ Home Made Style</span>
+        <span>✦ 100% Veg</span>
+        <span>✦ Kurkura</span>
+        <span>✦ Lajawaab Swad</span>
+        <span>✦ Desi Ghee</span>
+        <span>✦ Home Made Style</span>
+        <span>✦ 100% Veg</span>
+        <span>✦ Kurkura</span>
+        <span>✦ Lajawaab Swad</span>
+        <span>✦ Desi Ghee</span>
+        <span>✦ Home Made Style</span>
+        <span>✦ 100% Veg</span>
+      </div>
+    </div>
+
+    <!-- OUR STORY -->
+    <section class="section" id="story">
+      <div class="container">
+        <div class="story-layout">
+          <div class="story-text">
+            <div class="section-label">Our Story</div>
+            <h2 class="section-heading">A family recipe, unhurried<br>and honest.</h2>
+            <div class="story-body">
+              <p>
+                Three generations ago, in a small kitchen in Bihar, our grandmother began folding maida, gud, and warm desi ghee together by hand. No machines. No shortcuts. Just patience, feel, and an understanding of what good thekua should taste like.
+              </p>
+              <p>
+                Today, we make that same thekua in small batches — pressed into the same wooden moulds, slow-fried in pure ghee, and cooled before sealing. No preservatives. No artificial flavours. Just the recipe, unchanged.
+              </p>
+            </div>
+            <div class="founder-quote">
+              <blockquote>"Maa ke haath ka swad, har ek thekue mein."</blockquote>
+              <cite>— Aditya Sharma, Founder &amp; CEO</cite>
+            </div>
+          </div>
+          <div class="story-img-wrap">
+            <img
+              src="image/WhatsApp Image 2026-06-24 at 8.50.15 PM.jpeg"
+              alt="Sharma Ji Thekua packs on a wooden table with a cup of chai"
+              class="story-img"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="section section-cream" id="products">
+      <div class="container">
+        <div class="section-label">Our Packs</div>
+        <h2 class="section-heading">Pick your pouch of nostalgia.</h2>
+        <p class="section-sub">Sealed for freshness. Shipped pan-India. Pay on delivery available.</p>
+        <div class="products-grid">
+
+          <!-- 250gm Card -->
+          <div class="product-card">
+            <div class="product-card-inner">
+              <div class="product-weight">250 gm</div>
+              <h3 class="product-name">Maida Thekua</h3>
+              <p class="product-desc">Perfect for first-time tasters</p>
+              <div class="product-price">
+                <span class="price">₹ 149</span>
+                <span class="price-note">incl. of all taxes</span>
+              </div>
+              <div class="product-actions">
+                <button class="btn-link-arrow" onclick="showPack('250gm')">View details →</button>
+                <a href="https://wa.me/918777790916?text=Namaste!%20I'd%20like%20to%20order%20the%20250gm%20Maida%20Thekua%20pack%20(₹149).%20Please%20share%20delivery%20details." target="_blank" class="btn-outline-dark">Order</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 500gm Card (Most Loved) -->
+          <div class="product-card product-card-featured">
+            <div class="most-loved-badge">Most Loved</div>
+            <div class="product-card-inner">
+              <div class="product-weight">500 gm</div>
+              <h3 class="product-name">Maida Thekua</h3>
+              <p class="product-desc">Family pack — best value</p>
+              <div class="product-price">
+                <span class="price">₹ 249</span>
+                <span class="price-note">incl. of all taxes</span>
+              </div>
+              <div class="product-actions">
+                <button class="btn-link-arrow" onclick="showPack('500gm')">View details →</button>
+                <a href="https://wa.me/918777790916?text=Namaste!%20I'd%20like%20to%20order%20the%20500gm%20Maida%20Thekua%20pack%20(₹249).%20Please%20share%20delivery%20details." target="_blank" class="btn-outline-dark">Order</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Ingredient label image below product cards -->
+        <div class="ingredient-img-wrap">
+          <img
+            src="image/WhatsApp Image 2026-06-24 at 8.50.14 PM.jpeg"
+            alt="Sharma Ji Thekua — ingredients and nutrition label for 250gm and 500gm packs"
+            class="ingredient-img"
+          />
+        </div>
+
+      </div>
+    </section>
+
+    <!-- THE CRAFT -->
+    <section class="section" id="craft">
+      <div class="container">
+        <div class="section-label">The Craft</div>
+        <h2 class="section-heading">Four steps. Zero shortcuts.</h2>
+        <p class="section-sub">The recipe hasn't changed in decades — and that's the whole point.</p>
+        <div class="craft-grid">
+          <div class="craft-step">
+            <div class="craft-num">01</div>
+            <h3 class="craft-title">Knead</h3>
+            <p class="craft-desc">Maida, gud and warm desi ghee folded together by hand until the dough whispers back.</p>
+          </div>
+          <div class="craft-step">
+            <div class="craft-num">02</div>
+            <h3 class="craft-title">Mould</h3>
+            <p class="craft-desc">Pressed into heirloom wooden moulds, the floral imprint of every grandmother's kitchen.</p>
+          </div>
+          <div class="craft-step">
+            <div class="craft-num">03</div>
+            <h3 class="craft-title">Slow-fry</h3>
+            <p class="craft-desc">Coaxed to golden brown in a deep kadhai — never rushed, never re-fried.</p>
+          </div>
+          <div class="craft-step">
+            <div class="craft-num">04</div>
+            <h3 class="craft-title">Pack</h3>
+            <p class="craft-desc">Cooled overnight, sealed within hours, sent out the same week. Always fresh.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section section-cream">
+      <div class="container">
+        <div class="section-label">Loved By Families</div>
+        <h2 class="section-heading">Praise from our pantry.</h2>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="quote-mark">"</div>
+            <p class="testimonial-text">Bilkul wahi swad jo nani banati thi. Mouth-feel, sweetness, crunch — perfect.</p>
+            <div class="testimonial-author">— Anjali R., Patna</div>
+          </div>
+          <div class="testimonial-card">
+            <div class="quote-mark">"</div>
+            <p class="testimonial-text">Shipped fresh and beautifully packed. Finished the 500g in three days flat.</p>
+            <div class="testimonial-author">— Rahul M., Bengaluru</div>
+          </div>
+          <div class="testimonial-card">
+            <div class="quote-mark">"</div>
+            <p class="testimonial-text">The ghee aroma hits you the moment you open the pack. Worth every rupee.</p>
+            <div class="testimonial-author">— Sneha K., Delhi</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ORDER CTA -->
+    <section class="section order-section" id="order">
+      <div class="container text-center">
+        <h2 class="section-heading light">Order in two taps.<br>Eat in two days.</h2>
+        <p class="section-sub light">Drop us a WhatsApp message with your address and pack size. We confirm, pack, and ship — same week.</p>
+        <a href="https://wa.me/918777790916?text=Namaste!%20I'd%20like%20to%20order%20Sharma%20Ji%20Thekua." target="_blank" class="btn-whatsapp-large">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          8777790916
+        </a>
+        <p class="order-timing">Mon–Sat · 9 AM to 8 PM IST</p>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <div class="logo-icon small">S</div>
+              <div>
+                <div class="footer-logo-name">Sharma Ji Thekua</div>
+                <div class="footer-logo-sub">Parampara Ka Swad</div>
+              </div>
+            </div>
+            <p class="footer-desc">Homemade maida thekua, packed fresh and shipped across India.</p>
+          </div>
+          <div class="footer-links">
+            <div class="footer-col">
+              <h4>Explore</h4>
+              <ul>
+                <li><a href="#story">Our Story</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#craft">The Craft</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Order on WhatsApp</h4>
+              <a href="https://wa.me/918777790916" target="_blank" class="footer-wa">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                +91 8777790916
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2026 Sharma Ji Thekua. All rights reserved. Made with desi ghee and a lot of patience.</p>
+        </div>
+      </div>
+    </footer>
+
+  </div><!-- end #page-home -->
+
+
+  <!-- ===================== PACK DETAIL PAGE ===================== -->
+  <div id="page-pack" style="display:none;">
+    <section class="pack-detail">
+      <div class="container">
+        <div class="pack-breadcrumb">
+          <button onclick="showHome()" class="back-btn">← All packs</button>
+          <span class="breadcrumb-trail" id="pack-breadcrumb-trail">Home / Packs / 250 gm</span>
+        </div>
+        <!-- Product catalogue image -->
+        <div class="pack-hero-img-wrap">
+          <img
+            src="image/WhatsApp Image 2026-06-24 at 8.50.16 PM.jpeg"
+            alt="Sharma Ji Swadisht Maida Thekua — 250gm and 500gm packs"
+            class="pack-hero-img"
+            id="pack-hero-img"
+          />
+        </div>
+
+        <div class="pack-detail-grid">
+          <div class="pack-info">
+            <span class="pack-most-loved" id="pack-most-loved" style="display:none;">Most Loved</span>
+            <div class="pack-weight-label" id="pack-weight-label">250 gm Pouch</div>
+            <h1 class="pack-title" id="pack-title">250 gm Swadisht Maida Thekua</h1>
+            <p class="pack-desc" id="pack-desc">A handy pouch that's ideal for tea-time and gifting. About 12–14 pieces of pure nostalgia.</p>
+            <div class="pack-price-block">
+              <span class="pack-price" id="pack-price">₹ 149</span>
+              <span class="pack-price-note">incl. of all taxes</span>
+            </div>
+            <div class="pack-ctas">
+              <a href="#" class="btn-whatsapp" id="pack-wa-btn" target="_blank">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Order on WhatsApp
+              </a>
+              <a href="tel:+918777790916" class="btn-outline-dark">Call us</a>
+            </div>
+            <p class="pack-footer-note">100% Vegetarian · Made with pure desi ghee. Freshly packed in small batches.</p>
+          </div>
+          <div class="pack-specs">
+            <h3 class="specs-title">Pack Details</h3>
+            <div class="specs-grid">
+              <div class="spec-item">
+                <span class="spec-label">Net Weight</span>
+                <span class="spec-value" id="spec-weight">250 gm</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Pieces</span>
+                <span class="spec-value" id="spec-pieces">12–14 pieces</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Serves</span>
+                <span class="spec-value" id="spec-serves">4–6</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Price</span>
+                <span class="spec-value" id="spec-price">₹ 149</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div><!-- end #page-pack -->
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/918777790916?text=Namaste!%20I'd%20like%20to%20order%20Sharma%20Ji%20Thekua." target="_blank" class="float-wa" aria-label="Chat on WhatsApp">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="app.js"></script>
+</body>
+</html>
