@@ -293,10 +293,7 @@ button { background: none; border: none; cursor: pointer; font-family: var(--fon
   color: var(--ink-light);
 }
 
-@media(max-width:900px){
-  .hero-badges { display: none; }
-  .hero-inner { justify-content: flex-start; }
-}
+/* hero-badges removed — replaced by real image (.hero-img-wrap) */
 
 /* =====================================================
    TICKER STRIP
@@ -867,7 +864,7 @@ cite {
    IMAGE SECTIONS
    ===================================================== */
 
-/* --- Hero pack image (replaces badges) --- */
+/* --- Hero pack image --- */
 .hero-img-wrap {
   flex-shrink: 0;
   width: 360px;
@@ -886,10 +883,6 @@ cite {
   transition: transform .4s var(--ease);
 }
 .hero-pack-img:hover { transform: scale(1.02) rotate(0.5deg); }
-
-@media(max-width:900px){
-  .hero-img-wrap { display: none; }
-}
 
 /* --- Story two-column layout --- */
 .story-layout {
@@ -958,16 +951,29 @@ cite {
 /* ---- Large Tablet / Small Desktop (≤ 1024px) ---- */
 @media (max-width: 1024px) {
   .hero-inner    { gap: 32px; }
-  .hero-img-wrap { width: 300px; }
-  .hero-pack-img { height: 400px; }
+  .hero-img-wrap { width: 280px; }
+  .hero-pack-img { height: 380px; }
   .story-layout  { gap: 40px; }
 }
 
 /* ---- Tablet landscape (≤ 900px) ---- */
 @media (max-width: 900px) {
-  /* Hero — hide pack image, go full-width text */
-  .hero-img-wrap  { display: none; }
-  .hero-inner     { justify-content: flex-start; }
+  /* Hero — stack image below text */
+  .hero-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+  .hero-img-wrap {
+    width: 100%;
+    max-width: 480px;
+  }
+  .hero-pack-img {
+    width: 100%;
+    max-width: 100%;
+    height: 320px;
+    object-position: center 10%;
+  }
   .hero-content   { max-width: 100%; }
   .hero-desc      { max-width: 100%; }
 
@@ -978,6 +984,10 @@ cite {
 
 /* ---- Tablet portrait (≤ 768px) ---- */
 @media (max-width: 768px) {
+  /* Hero image — slightly shorter on tablets */
+  .hero-pack-img { height: 260px; }
+  .hero-img-wrap { max-width: 100%; }
+
   /* Navbar */
   .nav-links {
     display: none;
@@ -1113,6 +1123,7 @@ cite {
   .hero-heading { font-size: clamp(1.6rem, 10vw, 2rem); }
   .hero-desc    { font-size: 0.9rem; }
   .hero-kicker  { font-size: 0.7rem; }
+  .hero-pack-img { height: 220px; border-radius: 14px; }
 
   /* Sections */
   .section       { padding: 48px 0; }
