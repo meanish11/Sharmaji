@@ -6,390 +6,1221 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Sharma Ji Thekua — Parampara Ka Swad, Ghar Jaisa Vishwas</title>
   <meta name="description"
-    content="Authentic homemade maida thekua, made with desi ghee. Naram, kurkura aur lajawaab swad — straight from Sharma Ji's kitchen." />
+    content="Authentic homemade Bihari Swadisht Thekua in pure desi ghee. Choose from Elaichi, Gulab, and Chocolate flavours. 100% Vegetarian, No Palm Oil, Freshly Packed & Delivered across India." />
   <meta name="author" content="Sharma Ji Thekua" />
+  <meta name="theme-color" content="#8B3F24" />
+
+  <!-- Open Graph / Meta -->
   <meta property="og:title" content="Sharma Ji Thekua — Parampara Ka Swad, Ghar Jaisa Vishwas" />
   <meta property="og:description"
-    content="Authentic homemade maida thekua, made with desi ghee. Naram, kurkura aur lajawaab swad — straight from Sharma Ji's kitchen." />
+    content="Authentic homemade Bihari Thekua crafted in pure desi ghee. 100% Vegetarian, Zero Palm Oil, Freshly Packed." />
   <meta property="og:type" content="website" />
-  <meta property="og:image"
-    content="https://storage.googleapis.com/gpt-engineer-file-uploads/0hmom2iydFflMxidJrsUd99x1of1/social-images/social-1782270851886-59241.webp" />
+  <meta property="og:url" content="https://sharmajifood.in/" />
+  <meta property="og:image" content="image/1.jpeg" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Sharma Ji Thekua — Parampara Ka Swad, Ghar Jaisa Vishwas" />
   <meta name="twitter:description"
-    content="Authentic homemade maida thekua, made with desi ghee. Naram, kurkura aur lajawaab swad — straight from Sharma Ji's kitchen." />
-  <meta name="twitter:image"
-    content="https://storage.googleapis.com/gpt-engineer-file-uploads/0hmom2iydFflMxidJrsUd99x1of1/social-images/social-1782270851886-59241.webp" />
+    content="Authentic homemade Bihari Thekua crafted in pure desi ghee. Freshly packed and shipped pan-India." />
+  <meta name="twitter:image" content="image/1.jpeg" />
+
+  <!-- Google Fonts: Cormorant Garamond (Heritage Serif), Outfit (Modern Clean Sans), Great Vibes (Accent Script) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&family=Great+Vibes&display=swap" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600;700&family=Great+Vibes&display=swap"
+    rel="stylesheet" />
+
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-  <!-- ===================== NAVBAR ===================== -->
-  <nav class="navbar" id="navbar">
-    <div class="nav-inner">
-      <a href="#" class="nav-logo" onclick="showHome()">
-        <img src="image/logo.jpeg" alt="Sharma Ji Thekua Logo" class="logo-img" />
-        <div class="logo-text">
-          <span class="logo-name">Sharma Ji</span>
-          <span class="logo-sub">Swadisht Thekua</span>
-        </div>
-      </a>
-      <ul class="nav-links" id="nav-links">
-        <li><a href="#story" onclick="showHome()">Our Story</a></li>
-        <li><a href="#products" onclick="showHome()">Products</a></li>
-        <li><a href="#craft" onclick="showHome()">The Craft</a></li>
-        <li><a href="#order" onclick="showHome()">Order</a></li>
-      </ul>
-      <a href="https://wa.me/918777790916?text=Namaste!%20I'd%20like%20to%20order%20Sharma%20Ji%20Thekua."
-        target="_blank" class="nav-cta">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-          <path
-            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
-        </svg>
-        Order Now
-      </a>
-      <button class="hamburger" id="hamburger" onclick="toggleMobileMenu()">
-        <span></span><span></span><span></span>
+  <!-- ===================== TOP ANNOUNCEMENT STRIP ===================== -->
+  <aside class="top-announcement" aria-label="Announcement">
+    <div class="announcement-content">
+      <span class="announcement-badge">✦ Handcrafted in Pure Desi Ghee</span>
+      <span>Fresh Weekly Batches · 100% Vegetarian · Zero Palm Oil · Pan-India Express Delivery</span>
+      <button type="button" class="announcement-link-btn" onclick="openOrderCustomizer('elaichi')">
+        Order Personalized Pack (Special ₹250) →
       </button>
     </div>
-  </nav>
+  </aside>
 
-  <!-- ===================== HOME PAGE ===================== -->
-  <div id="page-home">
+  <!-- ===================== NAVBAR ===================== -->
+  <header>
+    <nav class="navbar" id="navbar">
+      <div class="nav-inner">
+        <a href="#" class="nav-logo" aria-label="Sharma Ji Thekua Home">
+          <img src="image/logo.jpeg" alt="Sharma Ji Thekua Heritage Logo" class="logo-img" />
+          <div class="logo-text">
+            <span class="logo-name">Sharma Ji</span>
+            <span class="logo-sub">Parampara Ka Swad</span>
+          </div>
+        </a>
 
-    <!-- HERO -->
-    <section class="hero">
-      <div class="hero-inner">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#story" class="nav-link">Our Heritage</a></li>
+          <li><a href="#products" class="nav-link">Thekua Flavours</a></li>
+          <li><a href="#craft" class="nav-link">The Craft</a></li>
+          <li><a href="#trust" class="nav-link">Why Trust Us</a></li>
+          <li><a href="#reviews" class="nav-link">Customer Stories</a></li>
+          <li><a href="#faq" class="nav-link">FAQs</a></li>
+          <li class="mobile-cta-item">
+            <button type="button" class="btn-whatsapp-nav" onclick="openOrderCustomizer('elaichi')">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg>
+              <span>Personalize Order</span>
+            </button>
+          </li>
+        </ul>
+
+        <div class="nav-right">
+          <button type="button" class="nav-cta" onclick="openOrderCustomizer('elaichi')">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+            </svg>
+            <span>Personalize Order</span>
+          </button>
+
+          <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" onclick="toggleMobileMenu()">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===================== MAIN CONTENT WRAPPER ===================== -->
+  <main>
+
+    <!-- ===================== HERO SECTION ===================== -->
+    <section class="hero" id="home">
+      <div class="hero-decorative-pattern" aria-hidden="true"></div>
+      <div class="container hero-inner">
+
         <div class="hero-content">
-          <span class="hero-kicker">Est. Tradition</span>
+          <div class="hero-kicker-wrap">
+            <span class="heritage-leaf" aria-hidden="true">❦</span>
+            <span class="hero-kicker">Tradition Ka Swad · Estd. 2026</span>
+            <span class="heritage-leaf" aria-hidden="true">❦</span>
+          </div>
+
           <h1 class="hero-heading">
-            <em class="script">Parampara ka</em><br>
-            swad, ghar jaisa vishwas.
+            <span class="hero-heading-lead">Parampara ka Swad,</span>
+            <span class="hero-heading-main">Ghar Jaisa Vishwas.</span>
           </h1>
+
           <p class="hero-desc">
-            Sharma Ji's Swadisht Maida Thekua — slow-roasted in pure desi ghee, hand-pressed in heirloom moulds, and
-            packed fresh from a Bihari kitchen to your doorstep.
+            From the heart of Bihar to your home. Experience the authentic taste of homemade
+            <strong>Swadisht Thekua</strong> — slow-cooked in pure desi ghee, pressed in heirloom wooden moulds,
+            and packed fresh in small batches without palm oil or artificial preservatives.
           </p>
+
           <div class="hero-actions">
-            <a href="https://wa.me/918777790916?text=Namaste!%20I'd%20like%20to%20order%20Sharma%20Ji%20Thekua."
-              target="_blank" class="btn-whatsapp">
+            <button type="button" class="btn-primary-whatsapp" onclick="openOrderCustomizer('elaichi')">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg>
+              <span>Personalize Order on WhatsApp</span>
+            </button>
+
+            <a href="#products" class="btn-secondary-explore">
+              <span>Explore Flavours</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Price Callout: ₹250 for all thekua with discounted price -->
+          <div class="hero-pricing-pill">
+            <span class="pill-label">Special Price for All Flavours:</span>
+            <span class="pill-mrp">MRP ₹ 299</span>
+            <span class="pill-price">₹ 250</span>
+            <span class="pill-tag">Save ₹49 (16% Off)</span>
+          </div>
+
+          <!-- Trust attributes under hero -->
+          <div class="hero-trust-badges">
+            <div class="trust-badge-item">
+              <span class="badge-icon veg-icon" title="100% Vegetarian"></span>
+              <span class="badge-text">100% Vegetarian</span>
+            </div>
+            <div class="trust-badge-item">
+              <span class="badge-icon">🫓</span>
+              <span class="badge-text">Pure Desi Ghee</span>
+            </div>
+            <div class="trust-badge-item">
+              <span class="badge-icon">🌿</span>
+              <span class="badge-text">Zero Palm Oil</span>
+            </div>
+            <div class="trust-badge-item">
+              <span class="badge-icon">✨</span>
+              <span class="badge-text">Small Batch Freshness</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image-showcase">
+          <div class="hero-frame">
+            <div class="heritage-corner top-left"></div>
+            <div class="heritage-corner top-right"></div>
+            <div class="heritage-corner bottom-left"></div>
+            <div class="heritage-corner bottom-right"></div>
+
+            <img src="image/1.jpeg" alt="Authentic Sharma Ji Swadisht Thekua pouch presentation with brass kalash and fragrant elaichi"
+              class="hero-pack-photo" />
+
+            <div class="hero-floating-tag">
+              <div class="floating-tag-icon">✦</div>
+              <div class="floating-tag-text">
+                <strong>Bite of Tradition</strong>
+                <span>Maa ke haath ka swad</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== VERIFIED QUALITY TICKER STRIP ===================== -->
+    <section class="trust-ticker-strip" aria-label="Product Highlights">
+      <div class="ticker-inner">
+        <div class="ticker-scroll">
+          <span>✦ 100% VEGETARIAN</span>
+          <span>✦ PURE DESI GHEE</span>
+          <span>✦ NO PALM OIL</span>
+          <span>✦ CHHOTI ELAICHI KA SWAD</span>
+          <span>✦ GULAB KI KHUSHBOO</span>
+          <span>✦ CHOCOLATE KA SWAD</span>
+          <span>✦ HOMEMADE BIHARI RECIPE</span>
+          <span>✦ SLOW FRIED TO GOLDEN CRUNCH</span>
+          <span>✦ NO ARTIFICIAL PRESERVATIVES</span>
+          <span>✦ AIRTIGHT ZIPLOCK PACKAGING</span>
+          <span>✦ 100% VEGETARIAN</span>
+          <span>✦ PURE DESI GHEE</span>
+          <span>✦ NO PALM OIL</span>
+          <span>✦ CHHOTI ELAICHI KA SWAD</span>
+          <span>✦ GULAB KI KHUSHBOO</span>
+          <span>✦ CHOCOLATE KA SWAD</span>
+          <span>✦ HOMEMADE BIHARI RECIPE</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SECTION: OUR STORY / HERITAGE ===================== -->
+    <section class="section section-story" id="story">
+      <div class="container">
+        <div class="story-grid">
+
+          <div class="story-image-column">
+            <div class="story-image-wrap">
+              <img src="image/chini-m1.webp" alt="Freshly slow-fried golden-brown thekua with traditional mould imprints on antique brass thali with marigold flowers"
+                class="story-pack-photo" />
+              <div class="story-caption-badge">
+                <span class="caption-title">Traditional Brass Thali</span>
+                <span class="caption-sub">Heirloom floral mould imprints with marigolds</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="story-content-column">
+            <div class="section-tag-wrap">
+              <span class="section-tag">Our Heritage</span>
+              <span class="section-divider-ornament">❖</span>
+            </div>
+
+            <h2 class="section-title">
+              Not just a sweet snack.<br>
+              A piece of home you can taste.
+            </h2>
+
+            <div class="story-body-text">
+              <p>
+                In Bihar, Jharkhand, and Eastern Uttar Pradesh, <em>Thekua</em> is sacred. It is the pious prasad of Chhath Puja,
+                the quintessential teatime treasure, and the affectionate pouch mothers secretly pack into bags whenever
+                their children leave for college, job postings, or distant cities.
+              </p>
+              <p>
+                At <strong>Sharma Ji Thekua</strong>, we treat this heritage with the dignity it deserves. No machines,
+                no commercial palm oils, no synthetic stabilizers. We hand-knead the flour with warm melted desi ghee (<em>moyen</em>),
+                press each piece into seasoned wooden moulds (<em>thekua sancha</em>), and gently slow-fry them in pure ghee over
+                a low kadhai flame to achieve that melt-in-the-mouth, crumbly golden crunch.
+              </p>
+              <p>
+                Every pouch brings the comforting nostalgia of home kitchens directly to your doorstep — wherever in
+                India life has taken you.
+              </p>
+            </div>
+
+            <div class="quote-card">
+              <div class="quote-ornament">“</div>
+              <p class="quote-text">
+                Maa ke haath ka swad, har ek thekue mein. We bake honesty and heritage into every single batch.
+              </p>
+              <div class="quote-author">
+                <strong>Aditya Sharma</strong>
+                <span>Founder, Sharma Ji Thekua</span>
+              </div>
+            </div>
+
+            <div class="story-quick-stats">
+              <div class="stat-item">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Desi Cow Ghee Aroma</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">0%</span>
+                <span class="stat-label">Palm Oil &amp; Preservatives</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">Fresh</span>
+                <span class="stat-label">Packed &amp; Shipped Weekly</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SECTION: PRODUCT SHOWCASE ===================== -->
+    <section class="section section-products" id="products">
+      <div class="container">
+
+        <div class="section-header text-center">
+          <div class="section-tag-wrap center">
+            <span class="section-tag">Freshly Prepared Packs</span>
+            <span class="section-divider-ornament">❖</span>
+          </div>
+          <h2 class="section-title">All Thekua Packs at Special Price: ₹ 250</h2>
+          <p class="section-subtitle">
+            Every 250g flavour is crafted with pure desi ghee and sealed in freshness ziplock pouches.
+            Regular MRP ₹ 299 — Now at a special discounted price of ₹ 250.
+          </p>
+        </div>
+
+        <!-- Product Cards Grid: 3 Distinct Flavours + 1 Festive Trio Combo -->
+        <div class="products-grid-three">
+
+          <!-- FLAVOUR 1: ELAICHI KA SWAD -->
+          <article class="product-card">
+            <div class="product-badge-corner">Bihari Classic</div>
+            <div class="product-card-top">
+              <div class="product-img-box">
+                <img src="image/2.jpeg" alt="250g Pouch of Sharma Ji Thekua (Elaichi Ka Swad)" class="product-thumb" />
+              </div>
+              <div class="product-badge-row">
+                <span class="pbadge veg">100% Veg</span>
+                <span class="pbadge">Desi Ghee</span>
+                <span class="pbadge">Green Elaichi</span>
+              </div>
+            </div>
+
+            <div class="product-card-body">
+              <div class="product-weight-tag">250 gm Stand-Up Ziplock Pouch</div>
+              <h3 class="product-title">Elaichi Ka Swad</h3>
+              <p class="product-desc">
+                The timeless original recipe. Hand-pounded green cardamom, pure desi cow ghee, and fine maida pressed into
+                heirloom floral sancha patterns. Crumbly, golden, and nostalgic.
+              </p>
+
+              <div class="product-specs-summary">
+                <div class="spec-cell">
+                  <span class="sc-label">Net Weight</span>
+                  <span class="sc-val">250g</span>
+                </div>
+                <div class="spec-cell">
+                  <span class="sc-label">Pieces</span>
+                  <span class="sc-val">~12–14 pcs</span>
+                </div>
+                <div class="spec-cell">
+                  <span class="sc-label">Desi Ghee</span>
+                  <span class="sc-val">100% Pure</span>
+                </div>
+              </div>
+
+              <div class="product-pricing-row">
+                <div class="price-wrap">
+                  <div class="mrp-row">
+                    <span class="mrp-text">MRP: ₹ 299</span>
+                    <span class="discount-pill">16% OFF</span>
+                  </div>
+                  <div class="selling-price-row">
+                    <span class="selling-price">₹ 250</span>
+                    <span class="tax-note">Discounted Price · Incl. of all taxes</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="product-actions-wrap">
+                <button type="button" class="btn-product-wa" onclick="openOrderCustomizer('elaichi')">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                  </svg>
+                  <span>Personalize &amp; Order (₹ 250)</span>
+                </button>
+                <button type="button" class="btn-details-link" onclick="openNutritionModal('elaichi')">
+                  View Ingredients &amp; Nutrition →
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- FLAVOUR 2: GULAB KI KHUSHBOO (ROSE) -->
+          <article class="product-card featured-pack">
+            <div class="product-badge-corner rose-badge">Floral Delight</div>
+            <div class="product-card-top">
+              <div class="product-img-box">
+                <img src="image/gulab-rose.jpeg" alt="250g Pouch of Sharma Ji Thekua (Gulab Ki Khushboo - Rose Flavour)" class="product-thumb" />
+              </div>
+              <div class="product-badge-row">
+                <span class="pbadge veg">100% Veg</span>
+                <span class="pbadge">Rose Petals</span>
+                <span class="pbadge">Gulab Mehak</span>
+              </div>
+            </div>
+
+            <div class="product-card-body">
+              <div class="product-weight-tag">250 gm Stand-Up Ziplock Pouch</div>
+              <h3 class="product-title">Gulab Ki Khushboo</h3>
+              <p class="product-desc">
+                Infused with natural damask rose aroma and gentle notes of edible rose petals. Blends royal Mughal-Bihari
+                festive fragrance with the rustic, comforting crunch of traditional thekua.
+              </p>
+
+              <div class="product-specs-summary">
+                <div class="spec-cell">
+                  <span class="sc-label">Net Weight</span>
+                  <span class="sc-val">250g</span>
+                </div>
+                <div class="spec-cell">
+                  <span class="sc-label">Pieces</span>
+                  <span class="sc-val">~12–14 pcs</span>
+                </div>
+                <div class="spec-cell">
+                  <span class="sc-label">Aroma</span>
+                  <span class="sc-val">Natural Rose</span>
+                </div>
+              </div>
+
+              <div class="product-pricing-row">
+                <div class="price-wrap">
+                  <div class="mrp-row">
+                    <span class="mrp-text">MRP: ₹ 299</span>
+                    <span class="discount-pill">16% OFF</span>
+                  </div>
+                  <div class="selling-price-row">
+                    <span class="selling-price">₹ 250</span>
+                    <span class="tax-note">Discounted Price · Incl. of all taxes</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="product-actions-wrap">
+                <button type="button" class="btn-product-wa" onclick="openOrderCustomizer('gulab')">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                  </svg>
+                  <span>Personalize &amp; Order (₹ 250)</span>
+                </button>
+                <button type="button" class="btn-details-link" onclick="openNutritionModal('gulab')">
+                  View Ingredients &amp; Nutrition →
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- FLAVOUR 3: CHOCOLATE KA SWAD -->
+          <article class="product-card">
+            <div class="product-badge-corner choco-badge">Modern Favourite</div>
+            <div class="product-card-top">
+              <div class="product-img-box">
+                <img src="image/chocolate.jpeg" alt="250g Pouch of Sharma Ji Thekua (Chocolate Ka Swad)" class="product-thumb" />
+              </div>
+              <div class="product-badge-row">
+                <span class="pbadge veg">100% Veg</span>
+                <span class="pbadge">Rich Cocoa</span>
+                <span class="pbadge">Kids &amp; Youth Love</span>
+              </div>
+            </div>
+
+            <div class="product-card-body">
+              <div class="product-weight-tag">250 gm Stand-Up Ziplock Pouch</div>
+              <h3 class="product-title">Chocolate Ka Swad</h3>
+              <p class="product-desc">
+                A delightful innovation marrying pure cocoa with traditional Bihari desi ghee craftsmanship. Rich, deep chocolatey
+                aroma with that authentic crumbly bite loved by children and adults alike.
+              </p>
+
+              <div class="product-specs-summary">
+                <div class="spec-cell">
+                  <span class="sc-label">Net Weight</span>
+                  <span class="sc-val">250g</span>
+                </div>
+                <div class="spec-cell">
+                  <span class="sc-label">Pieces</span>
+                  <span class="sc-val">~12–14 pcs</span>
+                </div>
+                <div class="spec-cell">
+                  <span class="sc-label">Cocoa</span>
+                  <span class="sc-val">Rich Blend</span>
+                </div>
+              </div>
+
+              <div class="product-pricing-row">
+                <div class="price-wrap">
+                  <div class="mrp-row">
+                    <span class="mrp-text">MRP: ₹ 299</span>
+                    <span class="discount-pill">16% OFF</span>
+                  </div>
+                  <div class="selling-price-row">
+                    <span class="selling-price">₹ 250</span>
+                    <span class="tax-note">Discounted Price · Incl. of all taxes</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="product-actions-wrap">
+                <button type="button" class="btn-product-wa" onclick="openOrderCustomizer('chocolate')">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                  </svg>
+                  <span>Personalize &amp; Order (₹ 250)</span>
+                </button>
+                <button type="button" class="btn-details-link" onclick="openNutritionModal('chocolate')">
+                  View Ingredients &amp; Nutrition →
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- TRIO COMBO BANNER -->
+        <div class="combo-sampler-banner">
+          <div class="combo-content">
+            <span class="combo-tag">✦ Best Gifting &amp; Family Choice ✦</span>
+            <h3 class="combo-title">The Heritage Trio Hamper (750 gm)</h3>
+            <p class="combo-desc">
+              Can't decide on one flavour? Get all three pouches: <strong>1× Elaichi + 1× Gulab + 1× Chocolate</strong>.
+              Separately sealed for lasting freshness and packaged in a festive gift box.
+            </p>
+            <div class="combo-pricing-wrap">
+              <span class="combo-mrp">MRP ₹ 899</span>
+              <span class="combo-price">₹ 699</span>
+              <span class="combo-savings">Save ₹200 (22% Off)</span>
+            </div>
+          </div>
+          <div class="combo-action">
+            <button type="button" class="btn-combo-wa" onclick="openOrderCustomizer('trio')">
+              Personalize Trio Hamper (₹ 699) →
+            </button>
+          </div>
+        </div>
+
+        <!-- Packaging & Quality Assurance Strip -->
+        <div class="packaging-assurance-bar">
+          <div class="assurance-item">
+            <span class="assurance-icon">📦</span>
+            <div>
+              <strong>Secure 3-Layer Corrugated Box</strong>
+              <span>Specially packed with cushioning so thekuas arrive crisp and unbroken.</span>
+            </div>
+          </div>
+          <div class="assurance-item">
+            <span class="assurance-icon">🔒</span>
+            <div>
+              <strong>Resealable Ziplock Pouch</strong>
+              <span>Retains ghee aroma and crispiness long after unsealing.</span>
+            </div>
+          </div>
+          <div class="assurance-item">
+            <span class="assurance-icon">🇮🇳</span>
+            <div>
+              <strong>Pan-India Express Dispatch</strong>
+              <span>Shipped through reputable courier partners within 24–48 hours.</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== SECTION: THE CRAFT ===================== -->
+    <section class="section section-craft" id="craft">
+      <div class="container">
+
+        <div class="section-header text-center">
+          <div class="section-tag-wrap center">
+            <span class="section-tag">Traditional Preparation</span>
+            <span class="section-divider-ornament">❖</span>
+          </div>
+          <h2 class="section-title">Four steps. Zero shortcuts.</h2>
+          <p class="section-subtitle">
+            How authentic Bihari thekua has been crafted for generations — slow, disciplined, and full of soul.
+          </p>
+        </div>
+
+        <div class="craft-steps-grid">
+
+          <!-- Step 01 -->
+          <div class="craft-card">
+            <div class="craft-header">
+              <span class="craft-step-number">01</span>
+              <span class="craft-hindi-name">सानना (Sanna)</span>
+            </div>
+            <h3 class="craft-heading">Gentle Kneading</h3>
+            <p class="craft-desc">
+              Wholesome flour is blended with pure melted desi ghee (<em>moyen</em>), warm sugar-infused water, and
+              fragrant crushed green cardamom (<em>elaichi</em>). Hand-rubbed until it achieves a crumbly, aromatic
+              texture that holds together when gently pressed in the palm.
+            </p>
+            <div class="craft-footer-tag">Desi Ghee Moyen · Hand Folded</div>
+          </div>
+
+          <!-- Step 02 -->
+          <div class="craft-card">
+            <div class="craft-header">
+              <span class="craft-step-number">02</span>
+              <span class="craft-hindi-name">गढ़ना (Ghadna)</span>
+            </div>
+            <h3 class="craft-heading">Heirloom Moulding</h3>
+            <p class="craft-desc">
+              Small balls of dough are pressed into seasoned wooden moulds (<em>thekua sancha</em>). This leaves the
+              iconic traditional leaf and floral relief that has been the sacred signature of Bihari household kitchens
+              for centuries.
+            </p>
+            <div class="craft-footer-tag">Wooden Sancha · Hand Pressed</div>
+          </div>
+
+          <!-- Step 03 -->
+          <div class="craft-card">
+            <div class="craft-header">
+              <span class="craft-step-number">03</span>
+              <span class="craft-hindi-name">तलना (Talna)</span>
+            </div>
+            <h3 class="craft-heading">Unhurried Slow-Fry</h3>
+            <p class="craft-desc">
+              Lowered into hot, pure desi ghee in a heavy kadhai over a gentle, steady flame. Never rushed. The low flame
+              ensures the thekua cooks completely through to the core, yielding a crisp crust with a tender, aromatic bite.
+            </p>
+            <div class="craft-footer-tag">Deep Kadhai · Low Gentle Flame</div>
+          </div>
+
+          <!-- Step 04 -->
+          <div class="craft-card">
+            <div class="craft-header">
+              <span class="craft-step-number">04</span>
+              <span class="craft-hindi-name">सुरक्षा (Suraksha)</span>
+            </div>
+            <h3 class="craft-heading">Cooling &amp; Packaging</h3>
+            <p class="craft-desc">
+              Allowed to cool completely at room temperature so the outer texture achieves its characteristic crunch.
+              Sealed within hours into food-grade, airtight ziplock stand-up pouches to lock in that fresh desi ghee aroma.
+            </p>
+            <div class="craft-footer-tag">Freshness Sealed · Dispatched Weekly</div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== SECTION: WHY TRUST SHARMA JI THEKUA ===================== -->
+    <section class="section section-trust" id="trust">
+      <div class="container">
+
+        <div class="section-header text-center">
+          <div class="section-tag-wrap center">
+            <span class="section-tag">Transparency &amp; Authenticity</span>
+            <span class="section-divider-ornament">❖</span>
+          </div>
+          <h2 class="section-title">Real Taste. Real People. Real Thekua.</h2>
+          <p class="section-subtitle">
+            Ordering traditional food online requires complete trust. Here is exactly who we are, what goes into our
+            products, and how we take care of your order.
+          </p>
+        </div>
+
+        <div class="trust-pillars-grid">
+
+          <!-- Pillar 1 -->
+          <div class="trust-card">
+            <div class="trust-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <h3>100% Ingredient Honesty</h3>
+            <p>
+              We disclose every single ingredient: Refined Wheat Flour, Pure Desi Cow Ghee, Sugar, Purified Water,
+              and natural flavour infusions (Cardamom, Rose, Cocoa). <strong>Zero palm oil, zero vanaspati, and zero chemical preservatives.</strong>
+            </p>
+          </div>
+
+          <!-- Pillar 2 -->
+          <div class="trust-card">
+            <div class="trust-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+            </div>
+            <h3>Crush-Proof Packaging</h3>
+            <p>
+              Traditional thekua is delicate. We use heavy-duty double-wall corrugated packaging with cushioning so your
+              order arrives at your doorstep fresh and intact, not crumbled into pieces.
+            </p>
+          </div>
+
+          <!-- Pillar 3 -->
+          <div class="trust-card">
+            <div class="trust-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </div>
+            <h3>Direct Human Contact</h3>
+            <p>
+              No bots or endless support tickets. You interact directly with our founder Aditya Sharma and the dispatch
+              team via WhatsApp at <strong>+91 87777 90916</strong> before, during, and after placing your order.
+            </p>
+          </div>
+
+          <!-- Pillar 4 -->
+          <div class="trust-card">
+            <div class="trust-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+              </svg>
+            </div>
+            <h3>Damage Replacement Policy</h3>
+            <p>
+              If your parcel is mishandled by the courier or arrives compromised in any way, send us a photo on WhatsApp.
+              We will promptly dispatch a fresh replacement or initiate an immediate refund.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- How Ordering Works (Step-by-step clarity) -->
+        <div class="order-flow-box">
+          <h3 class="flow-title">How Ordering Works — Simple &amp; Familiar</h3>
+          <div class="flow-steps">
+            <div class="flow-step">
+              <div class="fs-num">1</div>
+              <div class="fs-text">
+                <strong>Personalize Order</strong>
+                <span>Click order to open our personalized order creator with your preferred flavour &amp; details.</span>
+              </div>
+            </div>
+            <div class="flow-step-arrow">→</div>
+            <div class="flow-step">
+              <div class="fs-num">2</div>
+              <div class="fs-text">
+                <strong>Share Address</strong>
+                <span>Confirm your delivery pincode and preferred payment mode (UPI / Bank transfer).</span>
+              </div>
+            </div>
+            <div class="flow-step-arrow">→</div>
+            <div class="flow-step">
+              <div class="fs-num">3</div>
+              <div class="fs-text">
+                <strong>Fresh Packing</strong>
+                <span>Your thekua is packed fresh and dispatched within 24–48 hours.</span>
+              </div>
+            </div>
+            <div class="flow-step-arrow">→</div>
+            <div class="flow-step">
+              <div class="fs-num">4</div>
+              <div class="fs-text">
+                <strong>Doorstep Delivery</strong>
+                <span>Receive live courier tracking link on WhatsApp until delivered safely.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Business Details & Regulatory Card -->
+        <div class="business-info-banner">
+          <div class="bib-col">
+            <span class="bib-label">Brand &amp; Operator</span>
+            <strong class="bib-val">Sharma Ji Thekua (Estd. 2026)</strong>
+            <span class="bib-sub">Handcrafted Indian Traditional Foods</span>
+          </div>
+          <div class="bib-col">
+            <span class="bib-label">Kitchen &amp; Operations</span>
+            <strong class="bib-val">Authentic Homemade Facility</strong>
+            <span class="bib-sub">Batch details &amp; best-before stamped on each pouch</span>
+          </div>
+          <div class="bib-col">
+            <span class="bib-label">Support &amp; WhatsApp Helpline</span>
+            <strong class="bib-val">+91 87777 90916</strong>
+            <span class="bib-sub">Mon–Sat · 9:00 AM – 8:00 PM IST</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== SECTION: CUSTOMER REVIEWS ===================== -->
+    <section class="section section-reviews" id="reviews">
+      <div class="container">
+
+        <div class="section-header text-center">
+          <div class="section-tag-wrap center">
+            <span class="section-tag">Loved by Families Across India</span>
+            <span class="section-divider-ornament">❖</span>
+          </div>
+          <h2 class="section-title">Praise from our pantry.</h2>
+          <p class="section-subtitle">
+            What real customers say when the aroma of desi ghee and cardamom reaches their dining table.
+          </p>
+        </div>
+
+        <div class="reviews-grid">
+
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">
+              "Bilkul wahi swad jo Bachpan mein nani ke haath se milta tha. Sweetness bilkul balanced hai aur desi ghee
+              ki khushboo pack kholte hi aa jaati hai. Delhi mein itna authentic thekua milna mushkil tha."
+            </p>
+            <div class="review-meta">
+              <div class="reviewer-avatar">AR</div>
+              <div>
+                <strong class="reviewer-name">Anjali R.</strong>
+                <span class="reviewer-city">Patna origin, now in New Delhi · Verified Purchase</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">
+              "Shipped all the way to Bengaluru without a single piece broken. The corrugated box packing was very solid.
+              My parents were so happy to have authentic Bihari thekua for evening tea. Finished the whole pouch in 2 days!"
+            </p>
+            <div class="review-meta">
+              <div class="reviewer-avatar">RM</div>
+              <div>
+                <strong class="reviewer-name">Rahul M.</strong>
+                <span class="reviewer-city">Bengaluru, Karnataka · Verified Purchase</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">
+              "Tried both the Elaichi and the Gulab flavour. The crunch and rose aroma is sublime! You can immediately tell they don't
+              use palm oil. Very prompt and courteous updates on WhatsApp from Aditya."
+            </p>
+            <div class="review-meta">
+              <div class="reviewer-avatar">SK</div>
+              <div>
+                <strong class="reviewer-name">Sneha K.</strong>
+                <span class="reviewer-city">Lucknow, Uttar Pradesh · Verified Purchase</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== SECTION: FREQUENTLY ASKED QUESTIONS ===================== -->
+    <section class="section section-faq" id="faq">
+      <div class="container max-w-800">
+
+        <div class="section-header text-center">
+          <div class="section-tag-wrap center">
+            <span class="section-tag">Common Inquiries</span>
+            <span class="section-divider-ornament">❖</span>
+          </div>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">Everything you need to know about ingredients, packing, shelf-life, and delivery.</p>
+        </div>
+
+        <div class="faq-accordion">
+
+          <details class="faq-item" open>
+            <summary class="faq-question">
+              <span>What ingredients are used in Sharma Ji Thekua?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                We use only wholesome, traditional kitchen ingredients: premium Refined Wheat Flour (Maida), pure Desi Cow
+                Ghee, Sugar, Purified Water, and authentic flavour infusions (Fresh Cardamom for Elaichi, Rose Petals for Gulab,
+                and Rich Cocoa for Chocolate). We strictly do NOT use palm oil, dalda, artificial colours, or preservatives.
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>How long does the thekua stay fresh (shelf life)?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                Because our thekua is fried in pure desi ghee and moisture is completely baked out during the slow-frying
+                process, it has a natural shelf life of <strong>45 days</strong> from the packaging date. Keep it sealed in
+                our ziplock pouch or transfer it to an airtight stainless steel or glass container at room temperature away
+                from direct heat and moisture.
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>What is the price of Sharma Ji Thekua?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                All our 250g thekua pouches (Elaichi, Gulab, and Chocolate) are priced at a <strong>special discounted price of ₹ 250</strong>
+                (regular MRP is ₹ 299, saving you ₹ 49 per pack). We also offer the Heritage Trio Hamper (all 3 flavours, 750g)
+                at a special bundle price of ₹ 699 (saving you ₹ 200).
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>How is it packed to prevent breakage during courier shipping?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                Each pack is first hermetically sealed in a food-grade stand-up pouch, then cushioned inside a sturdy,
+                rigid corrugated outer box. We ship across India through trusted express courier partners (Delhivery,
+                BlueDart, DTDC).
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>How do I place an order and personalize my message?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                Simply click any <strong>Personalize &amp; Order</strong> button! A friendly order customizer opens where
+                you can choose your flavour, quantity, enter your name and city, or add special requests (e.g. for gifting or puja).
+                It prepares a personalized, formatted message ready to send into WhatsApp with one tap.
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>Can I order in bulk for festivals, weddings, or corporate gifting?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                Yes! We regularly prepare customized fresh batches for weddings, Chhath Puja, Diwali, family gatherings,
+                and corporate gift hampers. You can personalize a festive message directly or contact us on WhatsApp (+91 87777 90916).
+              </p>
+            </div>
+          </details>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== SECTION: ORDER CTA BANNER ===================== -->
+    <section class="section section-order-cta" id="order">
+      <div class="container text-center">
+        <div class="cta-inner-card">
+          <span class="cta-kicker">✦ Taste the Nostalgia ✦</span>
+          <h2 class="cta-heading">
+            Order in two taps.<br>
+            Delivered fresh across India.
+          </h2>
+          <p class="cta-desc">
+            Direct from our kitchen to your doorstep. Tap below to personalize your order and message our kitchen team directly.
+          </p>
+
+          <div class="cta-pricing-highlight">
+            <span>Special Price for All Flavours: <strong>₹ 250</strong> per 250g pack (MRP ₹ 299)</span>
+          </div>
+
+          <button type="button" class="btn-whatsapp-large" onclick="openOrderCustomizer('elaichi')">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+            </svg>
+            <span>Personalize &amp; Order on WhatsApp</span>
+          </button>
+
+          <div class="cta-direct-call">
+            <span>Prefer a quick phone call? Reach us at</span>
+            <a href="tel:+918777790916" class="phone-link">+91 87777 90916</a>
+          </div>
+
+          <p class="cta-timing-note">Helpline active Monday to Saturday · 9:00 AM to 8:00 PM IST</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top-grid">
+
+        <div class="footer-brand-col">
+          <div class="footer-brand-header">
+            <img src="image/logo.jpeg" alt="Sharma Ji Thekua Badge" class="footer-logo-img" />
+            <div>
+              <div class="footer-brand-title">Sharma Ji Thekua</div>
+              <div class="footer-brand-tagline">Parampara Ka Swad, Ghar Jaisa Vishwas</div>
+            </div>
+          </div>
+          <p class="footer-brand-bio">
+            Authentic homemade Bihari Swadisht Thekua. Crafted in small batches using pure desi ghee and natural
+            infusions. Freshly packed and dispatched across India.
+          </p>
+          <div class="footer-badges">
+            <span class="fbadge">100% Vegetarian</span>
+            <span class="fbadge">Pure Desi Ghee</span>
+            <span class="fbadge">Zero Palm Oil</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Explore</h4>
+          <ul class="footer-links-list">
+            <li><a href="#story">Our Heritage</a></li>
+            <li><a href="#products">Thekua Flavours</a></li>
+            <li><a href="#craft">The Craft &amp; Process</a></li>
+            <li><a href="#trust">Why Trust Us</a></li>
+            <li><a href="#reviews">Customer Stories</a></li>
+            <li><a href="#faq">FAQs</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Customer Care &amp; Policies</h4>
+          <ul class="footer-links-list">
+            <li><a href="javascript:void(0)" onclick="openPolicyModal('shipping')">Shipping &amp; Delivery Policy</a></li>
+            <li><a href="javascript:void(0)" onclick="openPolicyModal('refund')">Return &amp; Refund Policy</a></li>
+            <li><a href="javascript:void(0)" onclick="openPolicyModal('privacy')">Privacy &amp; Data Transparency</a></li>
+            <li><a href="javascript:void(0)" onclick="openNutritionModal('elaichi')">Ingredients &amp; Allergen Advice</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Direct Contact</h4>
+          <p class="footer-contact-desc">Drop us a message for orders, bulk hampers, or delivery status.</p>
+          <div class="footer-contact-actions">
+            <button type="button" class="footer-wa-btn" onclick="openOrderCustomizer('elaichi')">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
                 <path
                   d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
               </svg>
-              Order on WhatsApp
-            </a>
-            <a href="#products" class="btn-link">View packs →</a>
+              <span>WhatsApp Helpline</span>
+            </button>
+            <span class="footer-timing">Mon–Sat · 9:00 AM – 8:00 PM IST</span>
           </div>
         </div>
-        <div class="hero-img-wrap">
-          <img src="image/1.jpeg"
-            alt="Sharma Ji Swadisht Maida Thekua — branded pack close-up" class="hero-pack-img" />
-        </div>
-      </div>
-    </section>
 
-    <!-- TICKER -->
-    <div class="ticker-wrap">
-      <div class="ticker-track">
-        <span>✦ Kurkura</span>
-        <span>✦ Lajawaab Swad</span>
-        <span>✦ Desi Ghee</span>
-        <span>✦ Home Made Style</span>
-        <span>✦ 100% Veg</span>
-        <span>✦ Kurkura</span>
-        <span>✦ Lajawaab Swad</span>
-        <span>✦ Desi Ghee</span>
-        <span>✦ Home Made Style</span>
-        <span>✦ 100% Veg</span>
-        <span>✦ Kurkura</span>
-        <span>✦ Lajawaab Swad</span>
-        <span>✦ Desi Ghee</span>
-        <span>✦ Home Made Style</span>
-        <span>✦ 100% Veg</span>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <p class="copyright-text">
+          © 2026 Sharma Ji Thekua. All rights reserved. Handcrafted with pure desi ghee &amp; lots of patience.
+        </p>
+        <p class="developer-credit">
+          Crafted with care by
+          <a href="https://anishk.web.app/" target="_blank" rel="noopener noreferrer">Anish Kumar</a>
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ===================== FLOATING WHATSAPP BUTTON ===================== -->
+  <aside class="floating-wa-container">
+    <div class="floating-wa-tooltip" id="floating-tooltip">
+      <span>Order &amp; Personalize on WhatsApp</span>
+    </div>
+    <button type="button" class="float-wa-btn" onclick="openOrderCustomizer('elaichi')" aria-label="Personalize Order on WhatsApp">
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor">
+        <path
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+      </button>
+  </aside>
+
+  <!-- ===================== MODAL: PERSONALIZE WHATSAPP ORDER ===================== -->
+  <div class="custom-modal-backdrop" id="orderCustomizerModal" onclick="closeModalOnBackdrop(event, 'orderCustomizerModal')">
+    <div class="custom-modal-card customizer-modal-card" role="dialog" aria-modal="true" aria-labelledby="customizer-title">
+      <button class="modal-close-btn" onclick="closeOrderCustomizer()" aria-label="Close dialog">&times;</button>
+      
+      <div class="modal-header">
+        <span class="modal-tag">Direct to Kitchen</span>
+        <h3 id="customizer-title">Personalize Your WhatsApp Order</h3>
+        <p class="modal-sub">Handcrafted in pure desi ghee · Fresh weekly batch dispatch</p>
+      </div>
+
+      <div class="modal-body customizer-body">
+        
+        <!-- Flavour Selector Buttons -->
+        <div class="form-group">
+          <label class="form-label">1. Select Your Thekua Flavour</label>
+          <div class="flavour-pill-grid">
+            <button type="button" class="flavour-pill active" id="pill-elaichi" onclick="selectFlavour('elaichi')">
+              <span class="fp-badge">₹ 250</span>
+              <strong class="fp-title">Elaichi Ka Swad</strong>
+              <span class="fp-sub">250g Classic Pouch</span>
+            </button>
+            <button type="button" class="flavour-pill" id="pill-gulab" onclick="selectFlavour('gulab')">
+              <span class="fp-badge">₹ 250</span>
+              <strong class="fp-title">Gulab Ki Khushboo</strong>
+              <span class="fp-sub">250g Rose Infused</span>
+            </button>
+            <button type="button" class="flavour-pill" id="pill-chocolate" onclick="selectFlavour('chocolate')">
+              <span class="fp-badge">₹ 250</span>
+              <strong class="fp-title">Chocolate Ka Swad</strong>
+              <span class="fp-sub">250g Rich Cocoa</span>
+            </button>
+            <button type="button" class="flavour-pill trio" id="pill-trio" onclick="selectFlavour('trio')">
+              <span class="fp-badge save">Save ₹200</span>
+              <strong class="fp-title">Heritage Trio Hamper</strong>
+              <span class="fp-sub">750g (All 3 Flavours) · ₹ 699</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Quantity Stepper -->
+        <div class="form-group">
+          <div class="qty-control-row">
+            <div>
+              <label class="form-label" style="margin-bottom:2px;">2. Quantity (Packs)</label>
+              <span class="form-helper" id="qtyHelperText">250 grams per pack (~12–14 pcs)</span>
+            </div>
+            <div class="stepper-wrap">
+              <button type="button" class="stepper-btn" onclick="changeQty(-1)" aria-label="Decrease quantity">−</button>
+              <span class="stepper-val" id="custQtyVal">1</span>
+              <button type="button" class="stepper-btn" onclick="changeQty(1)" aria-label="Increase quantity">+</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Customer Name & City Inputs -->
+        <div class="form-grid-two">
+          <div class="form-group">
+            <label class="form-label" for="custName">3. Your Name (Optional)</label>
+            <input type="text" id="custName" class="form-input" placeholder="e.g. Ramesh Kumar" oninput="updateOrderPreview()" />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="custCity">4. Delivery City &amp; Pincode</label>
+            <input type="text" id="custCity" class="form-input" placeholder="e.g. Patna 800001 / Bengaluru" oninput="updateOrderPreview()" />
+          </div>
+        </div>
+
+        <!-- Quick Occasion Tags / Special Notes -->
+        <div class="form-group">
+          <label class="form-label">5. Add a Special Note / Occasion (Optional)</label>
+          <div class="quick-notes-row">
+            <button type="button" class="note-chip" onclick="applyNote('Evening Chai Snack')">☕ Evening Chai</button>
+            <button type="button" class="note-chip" onclick="applyNote('Puja / Festival Prasad')">🪔 Puja Prasad</button>
+            <button type="button" class="note-chip" onclick="applyNote('Gift for Family / Parents')">🎁 Gift for Family</button>
+            <button type="button" class="note-chip" onclick="applyNote('First-time Tasting')">✨ First-time Taster</button>
+          </div>
+          <input type="text" id="custNote" class="form-input" placeholder="Or type a custom note (e.g. Please pack extra securely for transit)..." oninput="updateOrderPreview()" style="margin-top: 8px;" />
+        </div>
+
+        <!-- Live WhatsApp Message Preview Bubble -->
+        <div class="form-group">
+          <label class="form-label preview-label">
+            <span>Live Message Preview</span>
+            <span class="preview-badge">Sent into WhatsApp</span>
+          </label>
+          <div class="wa-preview-bubble">
+            <div class="wa-bubble-header">
+              <span class="wa-sender">To: Sharma Ji Thekua (+91 87777 90916)</span>
+            </div>
+            <pre class="wa-bubble-content" id="waPreviewText"></pre>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="modal-footer customizer-footer">
+        <a id="custSubmitBtn" href="#" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-large w-full">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+          </svg>
+          <span id="custSubmitBtnLabel">Open WhatsApp &amp; Send Order (₹ 250)</span>
+        </a>
       </div>
     </div>
+  </div>
 
-    <!-- OUR STORY -->
-    <section class="section" id="story">
-      <div class="container">
-        <div class="story-layout">
-          <div class="story-text">
-            <div class="section-label">Our Story</div>
-            <h2 class="section-heading">A family recipe, unhurried<br>and honest.</h2>
-            <div class="story-body">
-              <p>
-                Three generations ago, in a small kitchen in Bihar, our grandmother began folding maida, gud, and warm
-                desi ghee together by hand. No machines. No shortcuts. Just patience, feel, and an understanding of what
-                good thekua should taste like.
-              </p>
-              <p>
-                Today, we make that same thekua in small batches — pressed into the same wooden moulds, slow-fried in
-                pure ghee, and cooled before sealing. No preservatives. No artificial flavours. Just the recipe,
-                unchanged.
-              </p>
-            </div>
-            <div class="founder-quote">
-              <blockquote>"Maa ke haath ka swad, har ek thekue mein."</blockquote>
-              <cite>— Aditya Sharma, Founder &amp; CEO</cite>
-            </div>
-          </div>
-        </div>
+  <!-- ===================== MODAL: INGREDIENTS & NUTRITION ===================== -->
+  <div class="custom-modal-backdrop" id="nutritionModal" onclick="closeModalOnBackdrop(event, 'nutritionModal')">
+    <div class="custom-modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-nutrition-title">
+      <button class="modal-close-btn" onclick="closeNutritionModal()" aria-label="Close dialog">&times;</button>
+      <div class="modal-header">
+        <span class="modal-tag" id="nutritionModalTag">Verified Quality</span>
+        <h3 id="modal-nutrition-title">Ingredients &amp; Nutritional Facts</h3>
+        <p class="modal-sub" id="nutritionModalSubtitle">Sharma Ji Swadisht Thekua</p>
       </div>
-    </section>
 
-    <!-- PRODUCTS -->
-    <section class="section section-cream" id="products">
-      <div class="container text-center">
-        <div class="section-label">Our Packs</div>
-        <h2 class="section-heading">Pick your pouch of nostalgia.</h2>
-        <p class="section-sub" style="margin: 14px auto 0;">Sealed for freshness. Shipped pan-India. Pay on delivery available.</p>
-        <div class="products-grid">
-
-          <!-- 250gm Card -->
-          <div class="product-card">
-            <div class="product-card-inner">
-              <div class="product-weight">250 gm</div>
-              <h3 class="product-name">Maida Thekua</h3>
-              <p class="product-desc">Perfect for first-time tasters</p>
-              <div class="product-price">
-                <span class="price">₹ 149</span>
-                <span class="price-note">incl. of all taxes</span>
-              </div>
-              <div class="product-actions">
-                <button class="btn-link-arrow" onclick="showPack('250gm')">View details →</button>
-                <a href="https://wa.me/918777790916?text=Namaste!%20I'd%20like%20to%20order%20the%20250gm%20Maida%20Thekua%20pack%20(₹149).%20Please%20share%20delivery%20details."
-                  target="_blank" class="btn-outline-dark">Order</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- 500gm Card (Most Loved) -->
-          <div class="product-card product-card-featured">
-            <div class="most-loved-badge">Most Loved</div>
-            <div class="product-card-inner">
-              <div class="product-weight">500 gm</div>
-              <h3 class="product-name">Maida Thekua</h3>
-              <p class="product-desc">Family pack — best value</p>
-              <div class="product-price">
-                <span class="price">₹ 249</span>
-                <span class="price-note">incl. of all taxes</span>
-              </div>
-              <div class="product-actions">
-                <button class="btn-link-arrow" onclick="showPack('500gm')">View details →</button>
-                <a href="https://wa.me/918777790916?text=Namaste!%20I'd%20like%20to%20order%20the%20500gm%20Maida%20Thekua%20pack%20(₹249).%20Please%20share%20delivery%20details."
-                  target="_blank" class="btn-outline-dark">Order</a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <!-- Ingredient label image below product cards -->
-        <div class="ingredient-img-wrap">
-          <img src="image/2.jpeg"
-            alt="Sharma Ji Thekua — ingredients and nutrition label for 250gm and 500gm packs" class="ingredient-img" />
-        </div>
-
+      <div class="modal-body" id="nutritionModalBody">
+        <!-- Injected dynamically via app.js -->
       </div>
-    </section>
 
-    <!-- THE CRAFT -->
-    <section class="section" id="craft">
-      <div class="container">
-        <div class="section-label">The Craft</div>
-        <h2 class="section-heading">Four steps. Zero shortcuts.</h2>
-        <p class="section-sub">The recipe hasn't changed in decades — and that's the whole point.</p>
-        <div class="craft-grid">
-          <div class="craft-step">
-            <div class="craft-num">01</div>
-            <h3 class="craft-title">Knead</h3>
-            <p class="craft-desc">Maida, gud and warm desi ghee folded together by hand until the dough whispers back.
-            </p>
-          </div>
-          <div class="craft-step">
-            <div class="craft-num">02</div>
-            <h3 class="craft-title">Mould</h3>
-            <p class="craft-desc">Pressed into heirloom wooden moulds, the floral imprint of every grandmother's
-              kitchen.</p>
-          </div>
-          <div class="craft-step">
-            <div class="craft-num">03</div>
-            <h3 class="craft-title">Slow-fry</h3>
-            <p class="craft-desc">Coaxed to golden brown in a deep kadhai — never rushed, never re-fried.</p>
-          </div>
-          <div class="craft-step">
-            <div class="craft-num">04</div>
-            <h3 class="craft-title">Pack</h3>
-            <p class="craft-desc">Cooled overnight, sealed within hours, sent out the same week. Always fresh.</p>
-          </div>
-        </div>
+      <div class="modal-footer">
+        <button type="button" class="btn-primary-whatsapp w-full" id="nutritionModalOrderBtn" onclick="orderFromNutritionModal()">
+          Personalize &amp; Order on WhatsApp (₹ 250)
+        </button>
       </div>
-    </section>
+    </div>
+  </div>
 
-    <!-- TESTIMONIALS -->
-    <section class="section section-cream">
-      <div class="container">
-        <div class="section-label">Loved By Families</div>
-        <h2 class="section-heading">Praise from our pantry.</h2>
-        <div class="testimonials-grid">
-          <div class="testimonial-card">
-            <div class="quote-mark">"</div>
-            <p class="testimonial-text">Bilkul wahi swad jo nani banati thi. Mouth-feel, sweetness, crunch — perfect.
-            </p>
-            <div class="testimonial-author">— Anjali R., Patna</div>
-          </div>
-          <div class="testimonial-card">
-            <div class="quote-mark">"</div>
-            <p class="testimonial-text">Shipped fresh and beautifully packed. Finished the 500g in three days flat.</p>
-            <div class="testimonial-author">— Rahul M., Bengaluru</div>
-          </div>
-          <div class="testimonial-card">
-            <div class="quote-mark">"</div>
-            <p class="testimonial-text">The ghee aroma hits you the moment you open the pack. Worth every rupee.</p>
-            <div class="testimonial-author">— Sneha K., Delhi</div>
-          </div>
-        </div>
+  <!-- ===================== MODAL: POLICIES ===================== -->
+  <div class="custom-modal-backdrop" id="policyModal" onclick="closeModalOnBackdrop(event, 'policyModal')">
+    <div class="custom-modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-policy-title">
+      <button class="modal-close-btn" onclick="closePolicyModal()" aria-label="Close dialog">&times;</button>
+      <div class="modal-header">
+        <span class="modal-tag" id="policyTag">Store Transparency</span>
+        <h3 id="modal-policy-title">Policy Details</h3>
       </div>
-    </section>
-
-    <!-- ORDER CTA -->
-    <section class="section order-section" id="order">
-      <div class="container text-center">
-        <h2 class="section-heading light">Order in two taps.<br>Eat in two days.</h2>
-        <p class="section-sub light">Drop us a WhatsApp message with your address and pack size. We confirm, pack, and
-          ship — same week.</p>
-        <a href="https://wa.me/918777790916?text=Namaste!%20I'd%20like%20to%20order%20Sharma%20Ji%20Thekua."
-          target="_blank" class="btn-whatsapp-large">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
-            <path
-              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
-          </svg>
-          8777790916
-        </a>
-        <p class="order-timing">Mon–Sat · 9 AM to 8 PM IST</p>
+      <div class="modal-body" id="policyBodyContent">
+        <!-- Content injected dynamically via app.js -->
       </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-grid">
-          <div class="footer-brand">
-            <div class="footer-logo">
-              <img src="image/logo.jpeg" alt="Sharma Ji Thekua" class="footer-logo-img"
-                style="width:40px; height:40px; border-radius:50%; margin-right: 12px;">
-              <div>
-                <div class="footer-logo-name">Sharma Ji Thekua</div>
-                <div class="footer-logo-sub">Parampara Ka Swad</div>
-              </div>
-            </div>
-            <p class="footer-desc">Homemade maida thekua, packed fresh and shipped across India.</p>
-          </div>
-          <div class="footer-links">
-            <div class="footer-col">
-              <h4>Explore</h4>
-              <ul>
-                <li><a href="#story">Our Story</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#craft">The Craft</a></li>
-              </ul>
-            </div>
-            <div class="footer-col">
-              <h4>Order on WhatsApp</h4>
-              <a href="https://wa.me/918777790916" target="_blank" class="footer-wa">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                  <path
-                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
-                </svg>
-                +91 8777790916
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="footer-bottom">
-          <p>© 2026 Sharma Ji Thekua. All rights reserved. Made with desi ghee and a lot of patience.</p>
-          <p class="footer-credit">Made by <a href="https://anishk.web.app/" target="_blank" rel="noopener noreferrer">Anish Kumar</a></p>
-        </div>
+      <div class="modal-footer">
+        <button class="btn-secondary-explore" onclick="closePolicyModal()">Close</button>
       </div>
-    </footer>
+    </div>
+  </div>
 
-  </div><!-- end #page-home -->
-
-
-  <!-- ===================== PACK DETAIL PAGE ===================== -->
-  <div id="page-pack" style="display:none;">
-    <section class="pack-detail">
-      <div class="container">
-        <div class="pack-breadcrumb">
-          <button onclick="showHome()" class="back-btn">← All packs</button>
-          <span class="breadcrumb-trail" id="pack-breadcrumb-trail">Home / Packs / 250 gm</span>
-        </div>
-        <!-- No product catalogue image -->
-
-        <div class="pack-detail-grid">
-          <div class="pack-info">
-            <span class="pack-most-loved" id="pack-most-loved" style="display:none;">Most Loved</span>
-            <div class="pack-weight-label" id="pack-weight-label">250 gm Pouch</div>
-            <h1 class="pack-title" id="pack-title">250 gm Swadisht Maida Thekua</h1>
-            <p class="pack-desc" id="pack-desc">A handy pouch that's ideal for tea-time and gifting. About 12–14 pieces
-              of pure nostalgia.</p>
-            <div class="pack-price-block">
-              <span class="pack-price" id="pack-price">₹ 149</span>
-              <span class="pack-price-note">incl. of all taxes</span>
-            </div>
-            <div class="pack-ctas">
-              <a href="#" class="btn-whatsapp" id="pack-wa-btn" target="_blank">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                  <path
-                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
-                </svg>
-                Order on WhatsApp
-              </a>
-              <a href="tel:+918777790916" class="btn-outline-dark">Call us</a>
-            </div>
-            <p class="pack-footer-note">100% Vegetarian · Made with pure desi ghee. Freshly packed in small batches.</p>
-          </div>
-          <div class="pack-specs">
-            <h3 class="specs-title">Pack Details</h3>
-            <div class="specs-grid">
-              <div class="spec-item">
-                <span class="spec-label">Net Weight</span>
-                <span class="spec-value" id="spec-weight">250 gm</span>
-              </div>
-              <div class="spec-item">
-                <span class="spec-label">Pieces</span>
-                <span class="spec-value" id="spec-pieces">12–14 pieces</span>
-              </div>
-              <div class="spec-item">
-                <span class="spec-label">Serves</span>
-                <span class="spec-value" id="spec-serves">4–6</span>
-              </div>
-              <div class="spec-item">
-                <span class="spec-label">Price</span>
-                <span class="spec-value" id="spec-price">₹ 149</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div><!-- end #page-pack -->
-
-  <!-- Floating WhatsApp Button -->
-  <a href="https://wa.me/918777790916?text=Namaste!%20I'd%20like%20to%20order%20Sharma%20Ji%20Thekua." target="_blank"
-    class="float-wa" aria-label="Chat on WhatsApp">
-    <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor">
-      <path
-        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
-    </svg>
-  </a>
-
+  <!-- App Script -->
   <script src="app.js"></script>
 </body>
 
